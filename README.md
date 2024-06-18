@@ -9,4 +9,14 @@ Build docker image
 ```
 
 
+## Run
 
+```c
+docker run --gpus all -it --rm -v $PWD/data:/container_dir depth-anything-tensorrt:latest
+```
+
+
+
+## Generate depth 
+
+Use either `run.py` or `run_video.py`
