@@ -12,7 +12,7 @@ Build docker image
 ## Run
 
 ```c
-docker run --gpus all -it --rm -v $PWD/data:/container_dir depth-anything-tensorrt:latest
+docker run --gpus all -it --rm -v $PWD/data:/container_dir depth-anything-v2:latest
 ```
 
 
