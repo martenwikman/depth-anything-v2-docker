@@ -20,3 +20,5 @@ docker run --gpus all -it --rm -v $PWD/data:/container_dir depth-anything-v2:lat
 ## Generate depth 
 
 Use either `run.py` or `run_video.py`
+
+python3 run_video.py --video-path /container_dir/tmp.mp4 --outdir /container_dir/outvideo/ --encoder vitl
